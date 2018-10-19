@@ -1,5 +1,6 @@
 import React from 'react'
 import ListCard from './ListCard'
+import '../styles/List.css'
 
 const createCards = (array) => {
     return array.map(item => {
@@ -10,7 +11,7 @@ const createCards = (array) => {
 const List = (props) => {
     console.log(props, 'list props')
     return(
-        <div>
+        <div className='cards-container'>
             {createCards(props.quotes)}
         </div>
     )

@@ -1,9 +1,13 @@
 import React from 'react'
+import '../styles/ListCard.css'
 
 const ListCard = (props) => {
     console.log(props.quote, 'listcard props')
     return(
-        <h1>{props.quote}</h1>
+        <div className='card-container'>
+            <h1 className='ronson'>Ron Says:</h1>
+            <p className='quote'>{props.quote}</p>
+        </div>
     )
 }
 

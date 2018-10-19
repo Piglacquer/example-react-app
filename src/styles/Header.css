@@ -1,0 +1,15 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 7vh;
+    width: 100vw;
+    background-color: green;
+    margin-bottom: 3vh;
+}
+
+.fart {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

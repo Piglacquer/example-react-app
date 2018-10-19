@@ -35,6 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <button onClick={this.getTheData}>NEW QUOTES, PLEASE</button>
         {/* passing data to list component */}
         <List quotes={this.state.data}/>
         <h1>{this.state.number}</h1>

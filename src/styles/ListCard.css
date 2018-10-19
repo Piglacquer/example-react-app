@@ -1,0 +1,21 @@
+.card-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+    height: 30vh;
+    background-color: red;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.ronson{
+    width: 100%;
+    font-size: 3rem;
+    background-color: grey;
+}
+
+.quote{
+    font-size: 2rem;
+}
